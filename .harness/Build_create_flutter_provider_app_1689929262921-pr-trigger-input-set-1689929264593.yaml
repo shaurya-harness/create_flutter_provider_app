@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_create_flutter_provider_app_1689929262921-pr-trigger-input-set
+  identifier: Build_create_flutter_provider_app_1689929262921prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: lets_test
+  pipeline:
+    identifier: Build_create_flutter_provider_app_1689929262921
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
