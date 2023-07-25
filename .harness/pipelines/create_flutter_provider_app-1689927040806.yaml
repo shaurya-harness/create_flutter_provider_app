@@ -9,7 +9,7 @@ pipeline:
         identifier: Build
         type: CI
         spec:
-          cloneCodebase: true
+          cloneCodebase: false
           execution:
             steps:
               - step:
@@ -25,9 +25,6 @@ pipeline:
           runtime:
             type: Cloud
             spec: {}
-  properties:
-    ci:
-      codebase:
-        connectorRef: account.Github
-        repoName: shaurya-harness/create_flutter_provider_app
-        build: <+input>
+          caching:
+            enabled: false
+            paths: []
