@@ -1,0 +1,27 @@
+inputSet:
+  name: new-1
+  identifier: new1
+  orgIdentifier: default
+  projectIdentifier: Default_Project_1668702117828
+  pipeline:
+    identifier: Build_create_flutter_provider_app_1691760109289
+    stages:
+      - stage:
+          identifier: Build
+          type: CI
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Echo_Welcome_Message
+                    type: Run
+                    spec:
+                      command: echo hw
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: main
+  object Object: pipeline.properties.ci.codebase
