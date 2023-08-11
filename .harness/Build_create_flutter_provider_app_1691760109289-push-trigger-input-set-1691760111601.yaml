@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_create_flutter_provider_app_1691760109289-push-trigger-input-set
+  identifier: Build_create_flutter_provider_app_1691760109289pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Default_Project_1668702117828
+  pipeline:
+    identifier: Build_create_flutter_provider_app_1691760109289
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
